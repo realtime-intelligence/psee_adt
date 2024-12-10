@@ -1,3 +1,30 @@
+# psee_adt
+
+A packaged version of [Prophesee's Automotive Dataset
+Toolbox](https://github.com/prophesee-ai/prophesee-automotive-dataset-toolbox)
+for easier integration into Python projects.
+
+## What is this?
+
+This is a minimal packaging fork of Prophesee's toolbox that:
+- Reorganizes the original code into a proper Python package structure
+- Adds `setup.py` for pip installation
+- Modifies `evaluate_detection` to return COCO metrics instead of printing to
+  stdout
+
+No functional changes beyond the above are made or planned.
+
+## Installation
+
+```bash
+git clone https://github.com/realtime-intelligence/psee_adt
+cd psee_adt
+pip install .
+```
+
+The original Prophesee's Automotive Dataset Toolbox README is below.
+
+
 # Prophesee's Automotive Dataset Toolbox
 
 [![Prophesee Automotive Dataset](media/GEN1-Automotive-detection-dataset-thumbnail.jpg)](https://www.youtube.com/watch?v=VJ7VSUqFvVE&feature=youtu.be) 
